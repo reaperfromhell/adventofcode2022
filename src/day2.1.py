@@ -1,6 +1,5 @@
 #!/usr/bin/python
-# Python3 program to print 
-# given matrix in spiral form 
+# Python3 program to solve adventofcode.com/2022 
 
 total_score = 0
 

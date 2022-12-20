@@ -1,12 +1,7 @@
 #!/usr/bin/python
-# Python3 program to print 
-# given matrix in spiral form 
+# Python3 program to solve adventofcode.com/2022 
 
 total_prio = 0
-
-#A = ROCK = 1 = X
-#B = PAPER = 2 = Y
-#C = SCISSORS = 3 = Z 
 
 def calculate_prio(line):
     #print(line, int((len(line)-1) / 2))
