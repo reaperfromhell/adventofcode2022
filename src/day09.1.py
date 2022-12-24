@@ -19,7 +19,7 @@ def move_tail(H, T):
 		return (T[0]-1, T[1]+(H[1]-T[1]))
 	return T
 
-with open("../input/day9.txt") as file_in:
+with open("../input/day09.txt") as file_in:
     for line in file_in:
         d, c = line.strip().split(" ")
         for i in range(int(c)):

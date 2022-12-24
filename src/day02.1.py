@@ -33,7 +33,7 @@ def calculate_score(line):
     if him == 'C' and me == 'Z':
         return 3 + 3
     
-with open("../input/day2.txt") as file_in:
+with open("../input/day02.txt") as file_in:
     for line in file_in:
         total_score += calculate_score(line)
 print(total_score)

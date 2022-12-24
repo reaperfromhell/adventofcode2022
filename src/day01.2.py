@@ -4,7 +4,7 @@
 all_calories = []
 tmp_calories = 0
 
-with open("../input/day1.txt") as file_in:
+with open("../input/day01.txt") as file_in:
     for line in file_in:
         if line == '\n':
             all_calories.append(tmp_calories)

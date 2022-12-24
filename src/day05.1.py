@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # Python3 program to solve adventofcode.com/2022 
 
-with open("../input/day5.txt") as file_in:
+with open("../input/day05.txt") as file_in:
     file = file_in.readlines()
     n = len(file[0])           # length of each container line
     containers = []

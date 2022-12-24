@@ -3,7 +3,7 @@
 
 visible = 0
 
-with open("../input/day8.txt") as file_in:
+with open("../input/day08.txt") as file_in:
     lines = file_in.readlines()
     for r, line in enumerate(lines):
         for c, tree in enumerate(line.strip()):

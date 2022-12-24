@@ -14,7 +14,7 @@ def calculate_prio(line):
         return ord(error)-96 #ASCII offset for lowercase letters
     return 0
 
-with open("../input/day3.txt") as file_in:
+with open("../input/day03.txt") as file_in:
     for line in file_in:
         total_prio += calculate_prio(line)
 print(total_prio)

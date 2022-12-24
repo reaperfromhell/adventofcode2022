@@ -90,7 +90,7 @@ def traverse_size(directory):
         traverse_size(subdir)
 
 
-with open("../input/day7.txt") as file_in:
+with open("../input/day07.txt") as file_in:
     fs = Filesystem()
     for line in file_in:
         sline = line.strip().split(" ")

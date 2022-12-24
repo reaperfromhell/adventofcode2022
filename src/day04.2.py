@@ -15,7 +15,7 @@ def calculate_overlaps(line):
         return 0
     return 0
 
-with open("../input/day4.txt") as file_in:
+with open("../input/day04.txt") as file_in:
     for line in file_in:
             overlaps += calculate_overlaps(line)
 print(overlaps)
